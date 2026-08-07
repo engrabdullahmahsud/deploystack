@@ -8,11 +8,12 @@ backend/.venv/
 
 # Python cache
 __pycache__/
+**/__pycache__/
 *.py[cod]
+*.pyc
 
 # IDE files
 .vscode/
-.idea/
 
 # OS files
 .DS_Store
