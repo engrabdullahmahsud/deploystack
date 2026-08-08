@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - develop-rebuild
   pull_request:
 
 jobs:
