@@ -1,25 +1,23 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+
 <head>
-    <title>Deploystack Frontend</title>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Deploystack</title>
+
 </head>
+
 <body>
 
-<h1>Deploystack Frontend</h1>
+<div id="root"></div>
 
-<p>Frontend is running on Kubernetes 🚀</p>
-
-<button onclick="testAPI()">Test Backend</button>
-
-<pre id="result"></pre>
-
-<script>
-async function testAPI() {
-    const response = await fetch("/api");
-    const data = await response.text();
-    document.getElementById("result").textContent = data;
-}
-</script>
+<script type="module" src="/src/main.jsx"></script>
 
 </body>
+
 </html>
